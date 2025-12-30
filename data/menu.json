@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "name": "Signature Plates",
+      "items": [
+        { "id": "plate_01", "name": "Signature Plate", "desc": "Your best seller goes here.", "price": 12.0, "note": "Make it spicy 🌶️ (tell us in notes)" },
+        { "id": "plate_02", "name": "Chicken Plate", "desc": "Juicy, grilled, and delicious.", "price": 11.0 }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        { "id": "side_fries", "name": "Fries", "desc": "Crispy and hot.", "price": 4.0 },
+        { "id": "side_salad", "name": "Side Salad", "desc": "Fresh greens and dressing.", "price": 4.5 }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        { "id": "drink_soda", "name": "Soda", "desc": "Coke / Sprite / etc.", "price": 2.0 },
+        { "id": "drink_water", "name": "Water", "desc": "Cold bottled water.", "price": 1.5 }
+      ]
+    }
+  ]
+}
