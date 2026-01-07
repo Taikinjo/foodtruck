@@ -1,84 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Diane's Food Truck — About</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="./index.html">
-        <img src="./assets/logo.png" alt="Logo" onerror="this.style.display='none'">
-        <span>Diane's Food Truck</span>
-      </a>
-      <nav class="nav-links">
-        <a href="./index.html">About</a>
-        <a href="./calendar.html">Calendar</a>
-        <a href="./menu.html">Menu</a>
-        <a href="./cart.html">
-          Cart <span class="badge" data-cart-badge style="display:none">0</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diane's Food Truck — About</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="./index.html">
+          <img
+            src="./assets/logo.png"
+            alt="Logo"
+            onerror="this.style.display='none'"
+          />
+          <span>Diane's Food Truck</span>
         </a>
-      </nav>
-    </div>
-  </header>
+        <nav class="nav-links">
+          <a href="./index.html">About</a>
+          <a href="./calendar.html">Calendar</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./cart.html">
+            Cart
+            <span class="badge" data-cart-badge style="display: none">0</span>
+          </a>
+        </nav>
+      </div>
+    </header>
 
-  <main class="container">
-    <section class="card hero">
-      <div>
-        <h1>Fresh food. Fast pickup. Pay at the truck.</h1>
-        <p>
-          Describe what the food is here.
-        </p>
-        <div class="btn-row">
-          <a class="btn primary" href="./menu.html">Order Now</a>
-          <a class="btn" href="./calendar.html">See Today’s Location</a>
+    <main class="container">
+      <section class="card hero">
+        <div>
+          <h1>Fresh food. Fast pickup. Pay at the truck.</h1>
+          <p>Describe what the food is here.</p>
+          <div class="btn-row">
+            <a class="btn primary" href="./menu.html">Order Now</a>
+            <a class="btn" href="./calendar.html">See Today’s Location</a>
+          </div>
+          <div style="margin-top: 12px" class="notice">
+            No online payments — you’ll pay at pickup. Orders are emailed
+            directly to the truck.
+          </div>
         </div>
-        <div style="margin-top:12px" class="notice">
-          No online payments — you’ll pay at pickup. Orders are emailed directly to the truck.
+
+        <div class="img-wrap">
+          <img src="./assets/hero.jpg" alt="Food truck hero image" />
         </div>
+      </section>
+
+      <div class="grid">
+        <section class="card section col-6">
+          <h2>What’s on the menu?</h2>
+          <p class="muted">Best sellers/ recommended food items</p>
+          <a class="btn" href="./menu.html">View Menu</a>
+        </section>
+
+        <section class="card section col-6">
+          <h2>Where are we today?</h2>
+          <p class="muted">
+            The calendar page is kept up to date with the truck’s locations and
+            hours.
+          </p>
+          <a class="btn" href="./calendar.html">View Calendar</a>
+        </section>
+
+        <section class="card section col-12">
+          <h2>Follow us</h2>
+          <p class="muted">
+            Follow us on
+            <a
+              href="https://instagram.com/INSTAGRAM_NAME"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            /
+            <a
+              href="https://line.me/R/ti/p/@LINE_ID"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LINE</a
+            >
+          </p>
+
+          <div class="btn-row">
+            <a
+              class="btn"
+              href="https://instagram.com/INSTAGRAM_NAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram: @INSTAGRAM_NAME
+            </a>
+            <a
+              class="btn"
+              href="https://line.me/R/ti/p/@LINE_ID"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LINE: @LINE_ID
+            </a>
+          </div>
+        </section>
+
+        <section class="card section col-12">
+          <h2>How ordering works</h2>
+          <p class="muted">
+            Add items to your cart → choose pickup time → submit. The order goes
+            to the truck by email. Pay in person when you arrive.
+          </p>
+        </section>
       </div>
 
-      <div class="img-wrap">
-        <img src="./assets/hero.jpg" alt="Food truck hero image">
-      </div>
-    </section>
+      <footer class="footer">
+        <div>
+          © <span id="year"></span> Diane's Food Truck • Follow us on
+          <a
+            href="https://instagram.com/INSTAGRAM_NAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+          /
+          <a
+            href="https://line.me/R/ti/p/@LINE_ID"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LINE</a
+          >
+        </div>
+      </footer>
+    </main>
 
-    <div class="grid">
-      <section class="card section col-6">
-        <h2>What’s on the menu?</h2>
-        <p class="muted">
-          Best sellers/ recommended food items
-        </p>
-        <a class="btn" href="./menu.html">View Menu</a>
-      </section>
-
-      <section class="card section col-6">
-        <h2>Where are we today?</h2>
-        <p class="muted">
-          The calendar page is kept up to date with the truck’s locations and hours.
-        </p>
-        <a class="btn" href="./calendar.html">View Calendar</a>
-      </section>
-
-      <section class="card section col-12">
-        <h2>How ordering works</h2>
-        <p class="muted">
-          Add items to your cart → choose pickup time → submit. The order goes to the truck by email.
-          Pay in person when you arrive.
-        </p>
-      </section>
-    </div>
-
-    <footer class="footer">
-      <div>© <span id="year"></span> Food Truck • Follow us on Instagram / LINE / etc.</div>
-    </footer>
-  </main>
-
-  <script type="module" src="./js/app.js"></script>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
+    <script type="module" src="./js/app.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>

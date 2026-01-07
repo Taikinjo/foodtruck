@@ -3,23 +3,94 @@
     {
       "name": "Signature Plates",
       "items": [
-        { "id": "plate_01", "name": "Signature Plate", "desc": "Your best seller goes here.", "price": 12.0, "note": "Make it spicy 🌶️ (tell us in notes)" },
-        { "id": "plate_02", "name": "Chicken Plate", "desc": "Juicy, grilled, and delicious.", "price": 11.0 }
+        {
+          "id": "jerk-chicken-plate",
+          "name": "Jerk Chicken Plate",
+          "desc": "Smoky-sweet jerk chicken served with rice & peas and island slaw.",
+          "price": 13.99,
+          "note": "Choose heat: Mild / Medium / Hot"
+        },
+        {
+          "id": "curry-goat-plate",
+          "name": "Curry Goat Plate",
+          "desc": "Slow-simmered curry goat with island spices, rice & peas, and slaw.",
+          "price": 16.99,
+          "note": "Limited daily"
+        },
+        {
+          "id": "oxtail-plate",
+          "name": "Oxtail Plate",
+          "desc": "Tender braised oxtail with butter beans, rice & peas, and plantains.",
+          "price": 19.99,
+          "note": "Sells out fast"
+        },
+        {
+          "id": "brown-stew-chicken",
+          "name": "Brown Stew Chicken",
+          "desc": "Jamaican-style brown stew chicken with carrots and onions.",
+          "price": 14.49
+        },
+        {
+          "id": "fried-fish-plate",
+          "name": "Crispy Island Fish Plate",
+          "desc": "Crispy white fish with lime aioli, coconut rice, and slaw.",
+          "price": 15.99
+        },
+        {
+          "id": "veg-coconut-curry",
+          "name": "Coconut Veg Curry (Vegan)",
+          "desc": "Seasonal veggies in coconut curry served with rice & peas.",
+          "price": 12.99,
+          "note": "Vegan-friendly"
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches & Wraps",
+      "items": [
+        {
+          "id": "jerk-chicken-sandwich",
+          "name": "Jerk Chicken Sandwich",
+          "desc": "Jerk chicken, pineapple slaw, and spicy mayo on a toasted bun.",
+          "price": 11.99
+        },
+        {
+          "id": "pulled-pork-wrap",
+          "name": "Island Pulled Pork Wrap",
+          "desc": "Citrus pulled pork, cabbage crunch, and garlic-lime sauce.",
+          "price": 10.99
+        },
+        {
+          "id": "fish-tacos",
+          "name": "Island Fish Tacos (2)",
+          "desc": "Crispy fish, mango salsa, and lime crema in warm tortillas.",
+          "price": 9.99,
+          "note": "Add a 3rd taco +$3"
+        }
       ]
     },
     {
       "name": "Sides",
       "items": [
-        { "id": "side_fries", "name": "Fries", "desc": "Crispy and hot.", "price": 4.0 },
-        { "id": "side_salad", "name": "Side Salad", "desc": "Fresh greens and dressing.", "price": 4.5 }
-      ]
-    },
-    {
-      "name": "Drinks",
-      "items": [
-        { "id": "drink_soda", "name": "Soda", "desc": "Coke / Sprite / etc.", "price": 2.0 },
-        { "id": "drink_water", "name": "Water", "desc": "Cold bottled water.", "price": 1.5 }
-      ]
-    }
-  ]
-}
+        {
+          "id": "rice-peas",
+          "name": "Rice & Peas",
+          "desc": "Classic coconut rice with kidney beans.",
+          "price": 4.49
+        },
+        {
+          "id": "sweet-plantains",
+          "name": "Sweet Plantains",
+          "desc": "Golden fried plantains with a caramelized edge.",
+          "price": 4.99
+        },
+                {
+                  "id": "festival",
+                  "name": "Festival (2 pcs)",
+                  "desc": "Sweet fried cornmeal",
+                  "price": 3.99
+                }
+              ]
+            }
+          ]
+        }

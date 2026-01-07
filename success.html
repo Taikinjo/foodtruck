@@ -1,46 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Order Sent</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="brand" href="./index.html">
-        <img src="./assets/logo.png" alt="Logo" onerror="this.style.display='none'">
-        <span>Food Truck</span>
-      </a>
-      <nav class="nav-links">
-        <a href="./index.html">About</a>
-        <a href="./calendar.html">Calendar</a>
-        <a href="./menu.html">Menu</a>
-        <a href="./cart.html">
-          Cart <span class="badge" data-cart-badge style="display:none">0</span>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Order Sent</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="./index.html">
+          <img
+            src="./assets/logo.png"
+            alt="Logo"
+            onerror="this.style.display='none'"
+          />
+          <span>Food Truck</span>
         </a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="card section">
-      <h1 style="margin:0 0 8px">Order received ✅</h1>
-      <p class="muted" style="margin:0 0 14px">
-        Your order was sent to the truck. Please pay at pickup.
-      </p>
-      <div class="btn-row">
-        <a class="btn primary" href="./calendar.html">See location</a>
-        <a class="btn" href="./menu.html">Order more</a>
+        <nav class="nav-links">
+          <a href="./index.html">About</a>
+          <a href="./calendar.html">Calendar</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./cart.html">
+            Cart
+            <span class="badge" data-cart-badge style="display: none">0</span>
+          </a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <footer class="footer">
-      <div class="muted">If the truck is slammed, pickup times may shift slightly.</div>
-    </footer>
-  </main>
+    <main class="container">
+      <section class="card section">
+        <h1 style="margin: 0 0 8px">Order received ✅</h1>
+        <p class="muted" style="margin: 0 0 14px">
+          Your order was sent to the truck. Please pay at pickup.
+        </p>
+        <div class="btn-row">
+          <a class="btn primary" href="./calendar.html">See location</a>
+          <a class="btn" href="./menu.html">Order more</a>
+        </div>
+      </section>
 
-  <script type="module" src="./js/app.js"></script>
-</body>
+      <footer class="footer">
+        <div class="muted">
+          If the truck is slammed, pickup times may shift slightly.
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
 </html>
